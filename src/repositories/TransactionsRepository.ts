@@ -21,7 +21,7 @@ class TransactionsRepository {
     // TODO
   }
 
-  public create(): Transaction {
+  public create({ income, outcome, total }: Balance): Transaction {
     // TODO
   }
 }
